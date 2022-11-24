@@ -4,7 +4,7 @@ use DBI;
 use strict;
 
 my $driver  = "Pg"; 
-my $database = "jobly";
+my $database = "testdb";
 my $dsn = "DBI:$driver:dbname = $database;host = 127.0.0.1;port = 5432";
 my $userid = "testuser";
 my $password = "secret";
